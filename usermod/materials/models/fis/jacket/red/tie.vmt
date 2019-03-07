@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\fis\jacket\tie_d"
+	"$bumpmap" "models\fis\jacket\tie_n"
+	
+	$phong "1"
+	"$phongexponenttexture"  "models\fis\jacket\tie_exp"
+	"$phongboost" "20"
+	//"$phongtint" "[.26 .043 .043]"
+	"$phongfresnelranges"	"[.4 1.4 12]"
+	"$phongdisablehalflambert" "1"
+	"$nocull" "1"
+}
