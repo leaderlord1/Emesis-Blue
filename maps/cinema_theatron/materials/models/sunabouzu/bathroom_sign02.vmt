@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sunabouzu/bathroom_sign01"
+	"$selfillum" "1"
+}

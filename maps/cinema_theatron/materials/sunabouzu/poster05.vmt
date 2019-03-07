@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sunabouzu/poster05"
+	"$envmapmask" "sunabouzu/poster05_spec"
+	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" .3
+	"$envmapsaturation" .75
+	"$envmaptint" "[ .75 .75 .75 ]"
+	"$surfaceprop" "Glass"
+	"%keywords" "poster"
+}

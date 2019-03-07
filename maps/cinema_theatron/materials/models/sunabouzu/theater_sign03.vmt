@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sunabouzu/theater_sign03"
+	"$selfillum" 0
+	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" .5
+	"$envmapsaturation" .8
+	"$envmaptint" "[ .6 .6 .6 ]"
+	Proxies
+{
+	TextureScroll
+	{
+		texturescrollvar $baseTextureTransform
+		texturescrollrate .35
+		texturescrollangle 0
+	}
+}
+}

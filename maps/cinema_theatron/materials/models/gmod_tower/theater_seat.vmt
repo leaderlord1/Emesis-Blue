@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gmod_tower/theater_seat"
+	"$bumpmap" "models/gmod_tower/theater_seat_N"
+	"$phongboost" "6"
+	"$phongexponent" 20
+//	"$BasemapAlphaPhongMask" "1"
+	"$normalmapalphaphongmask" "7"
+//	"$phongexponenttexture"	"models/weapons/v_camera/camera_normals"
+//	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[.1 5 1]"
+}
