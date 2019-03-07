@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\fis\eb_bottle\cap"
+	$bumpmap "models\fis\eb_bottle\n"
+}
