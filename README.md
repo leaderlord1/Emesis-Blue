@@ -15,7 +15,7 @@ Latest Change: Added current stuff
 * eb_satchel
 * 
 # Map List:
-* 
+
 * 2fort_eb v0.5
 
 
