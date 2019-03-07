@@ -13,7 +13,7 @@ Latest Change: Added current stuff
 * eb_dispenser
 * eb_disposaldoor
 * eb_satchel
-* 
+
 # Map List:
 
 * 2fort_eb v0.5
