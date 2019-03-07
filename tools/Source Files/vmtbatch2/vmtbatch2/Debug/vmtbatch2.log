@@ -1,5 +1,0 @@
-﻿  stdafx.cpp
-  vmtbatch2.cpp
-d:\work\programmingstuff\vmtbatch2\vmtbatch2\vmtbatch2.cpp(89): warning C4018: '<': signed/unsigned mismatch
-d:\work\programmingstuff\vmtbatch2\vmtbatch2\vmtbatch2.cpp(99): warning C4018: '>=': signed/unsigned mismatch
-  vmtbatch2.vcxproj -> D:\Work\programmingstuff\vmtbatch2\Debug\vmtbatch2.exe
