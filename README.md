@@ -2,7 +2,7 @@
 
 Latest Change: Added current stuff
 
-If you want to upload stuff, add it in the 'other folder'
+If you want to upload stuff, add it in the 'other' folder
 
 # Model List:
 
