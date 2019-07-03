@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sunabouzu/display_case02"
+	"$bumpmap" "models/sunabouzu/flat_normal"
+	"$selfillum" 0
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "3"
+	$phongfresnelranges		"[ .1 5 1]"
+}

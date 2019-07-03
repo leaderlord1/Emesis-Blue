@@ -1,0 +1,2 @@
+﻿  ConsoleApplication4.cpp
+d:\work\programmingstuff\consoleapplication4\consoleapplication4\consoleapplication4.cpp(12): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?

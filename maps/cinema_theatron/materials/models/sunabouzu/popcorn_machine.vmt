@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sunabouzu/popcorn_machine"
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "3"
+	$phongfresnelranges		"[ .05 .5 0 ]"
+}

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sunabouzu/soda_fountain"
+	"$bumpmap" "models/sunabouzu/soda_fountain_N"
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "3"
+	$phongfresnelranges		"[ .05 .5 0 ]"
+}

@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sunabouzu/bathroom_wall"
+	"$bumpmap" "sunabouzu/theater_tile02N"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" .9
+	"$envmapsaturation" .5
+	"$envmaptint" "[ .9 .9 .9 ]"
+	"$surfaceprop" "tile"
+	"%keywords" "theater"
+}
