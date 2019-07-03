@@ -1,5 +1,6 @@
 # Emesis-Blue
 
+<<<<<<< HEAD
 Latest Change: Added current stuff
 
 # Model List:
@@ -19,3 +20,6 @@ Latest Change: Added current stuff
 * 2fort_eb v0.5
 
 
+=======
+A stupid movie made by some assholes.
+>>>>>>> parent of d74eb30... Update README.md
