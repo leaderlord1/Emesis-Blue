@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/nfs_leather_darkgrey"
+	"$bumpmap" "models/lonewolfiescars/shared/nfs_leather_darkgrey_bump"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".1" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 6
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$colorfix" "{255 255 255}"
+	"$nodecal" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

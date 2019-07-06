@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/chrome"
+	"$blendtintbybasealpha" "1"
+"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+   $surfaceprop "metal"
+    $envmap "env_cubemap"
+    $envmaptint "[0.4 0.4 0.4]"
+    $envmapcontrast "1"
+    $envmapsaturation "1"
+    $envmapfresnel "1"
+    $phong "1"
+    $phongexponent "8"
+    $phongboost "10"
+    $phongfresnelranges "[ .2 .2 1]"
+$nocull "1"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+
+}

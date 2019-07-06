@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center 0 0 scale 1.2 1.2 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/shared/leather_perforated_spaced"
+	"$bumpmap" "models/LoneWolfiesCars/shared/leather_perforated_spaced_bump"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".2" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 4
+	"$colorfix" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1	$colorfix
+			resultVar	$color
+		}
+	}
+}

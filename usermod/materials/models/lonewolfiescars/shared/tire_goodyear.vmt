@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/tire_goodyear"
+	"$bumpmap" "models/LoneWolfiesCars/shared/tire_goodyear_bump"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges" "[1 1 1]"
+	"$nodecal" "1"
+	"$colorfix" "{230 230 230}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

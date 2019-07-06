@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/ford_f350_ambu/nodamage"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 5
+	"$phongtint" "[0.1 0.1 0.1]"
+	"$phongboost"	2
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.07 0.07 0.07]"
+	"$normalmapalphaenvmapmask" 1
+	"$phongfix" "{1 1 1}"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

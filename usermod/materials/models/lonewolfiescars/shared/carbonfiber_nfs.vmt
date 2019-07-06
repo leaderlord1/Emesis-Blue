@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 1.5 1.5 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/shared/skin"
+	"$bumpmap" "models/carmats/carbonfiber_new_normal"
+
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 0
+
+	"$phong" 1
+	"$phongexponent" 13
+	"$phongboost"	1.2
+	"$phongtint" "[0.3 0.3 0.3]"
+	"$phongfresnelranges" "[.8 .8 .8]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.04 0.04 0.04]"
+
+	"$colorfix" "{30 30 30}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+

@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/shared/black"
+	"$detail" "_RT_camera"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+	"$bumpmap" "models/lonewolfiescars/shared/skin_nm"
+	"$phong" "1" 
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

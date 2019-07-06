@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/metal_plates"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+   	$surfaceprop "metal"
+    	$envmap "env_cubemap"
+    	$envmaptint "[0.05 0.05 0.05]"
+    	$phong "1"
+    	$phongexponent "8"
+    	$phongboost "1"
+    	$phongfresnelranges "[ .2 .2 1]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$nodecal" "1"
+
+}

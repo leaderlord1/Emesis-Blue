@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/carbonfiber"
+	"$basetexturetransform" "center .3 .3 scale 280 280 rotate 0 translate 0 0"
+	"$blendtintbybasealpha" 1
+	"$nodecal" 1
+	"$phong" 1
+	"$phongexponent" 30
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongboost"	10
+	$envmap env_cubemap
+	$envmaptint "[0.4 0.4 0.4]"
+
+
+}

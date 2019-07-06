@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 0.5 0.5 rotate 30 translate 0 0"
+
+	"$basetexture" "models/lonewolfiescars/shared/alcantara"
+	"$bumpmap"    "models/LoneWolfiesCars/shared/alcantara_bump"
+
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phongexponenttexture" "models/lonewolfiescars/shared/alcantara_detail"
+	"$phong" "1" 
+	"$phongboost" "0.15" 
+	//"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 5
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".2"
+	"$rimmask" "1"
+
+	"$detail" "models/lonewolfiescars/shared/alcantara_detail"
+	"$detailscale" "0.6"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "0"
+
+	"$colorfix" "{40 40 40}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

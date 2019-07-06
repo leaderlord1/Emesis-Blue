@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/nfs_cloth_brightgrey"
+	"$bumpmap"    "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.1"
+	"$phongexponent" 8 
+	"$phongfresnelranges" "[0.25 1.1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

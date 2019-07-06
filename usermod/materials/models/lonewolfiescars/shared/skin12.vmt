@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/skin"
+	"$phong" 1
+
+	"$phongexponent" 1
+	"$phongtint" "[3 0.6 0.6]"
+	"$phongboost"	0.4
+	"$phongfresnelranges" "[0.8 0.8 0.5]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$normalmapalphaenvmapmask" 1
+	$nocull 1
+"$bumpmap" "models/LoneWolfiesCars/sub_22b/skin_nm"
+
+
+
+}

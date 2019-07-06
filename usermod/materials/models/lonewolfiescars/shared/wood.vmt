@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/shared/wood"
+	"$bumpmap"    "models/lonewolfiescars/shared/skin_nm"
+	"$blendtintbybasealpha" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 50
+
+	"$rimlight" 1
+	"$rimlightboost" 0.1
+
+	"$colorfix" "{120 120 120}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$nodecal" "1"
+}

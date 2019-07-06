@@ -1,0 +1,25 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/leather"
+	"$basetexturetransform" "center .3 .3 scale 5 5 rotate 0 translate 0 0"
+	"$bumpmap" "models/lonewolfiescars/shared/leather_bump"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".5" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

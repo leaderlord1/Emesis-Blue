@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/wheel"
+	"$bumpmap" "models/LoneWolfiesCars/shared/wheel_bump"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "90"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[0.5 0.5 0.5]"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

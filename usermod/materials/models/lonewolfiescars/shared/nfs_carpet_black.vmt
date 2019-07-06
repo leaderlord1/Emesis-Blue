@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .2 .2 scale 0.4 0.4 rotate 0 translate 0 0"
+	"$basetexture" "models/LoneWolfiesCars/shared/nfs_carpet_black"
+	"$bumpmap"    "models/LoneWolfiesCars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.1"
+	"$phongexponent" 20 
+	"$phongfresnelranges" "[0.25 1.1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

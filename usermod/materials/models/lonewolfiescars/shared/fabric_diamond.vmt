@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/shared/fabric_diamond"
+	"$bumpmap"    "models/lonewolfiescars/shared/fabric_diamond_nm"
+	"$blendtintbybasealpha" "1"
+
+}

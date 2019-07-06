@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/volvo_s60/policestuff"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$nocull" "1"
+
+}

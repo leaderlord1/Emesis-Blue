@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+	"$basetexture" "models/LoneWolfiesCars/shared/leather_lightbrown"
+	"$bumpmap" "models/LoneWolfiesCars/shared/leather_lightbrown_bump"
+
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" ".2" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 1
+	"$phongtint" "[0.17 .1 .05]"	
+	"$phongexponenttexture" "models/lonewolfiescars/shared/leather_lightbrown"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "3"
+	"$rimlightboost" ".2"
+	"$rimmask" "1"
+
+	"$detail" "models/lonewolfiescars/shared/leather_lightbrown_detail"
+	"$detailscale" "0.2"
+	"$detailblendfactor" "0.8"
+	"$detailblendmode" "0"
+
+	"$colorfix" "{40 30 25}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
