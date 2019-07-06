@@ -1,5 +1,5 @@
 # Emesis-Blue
 
-A stupid movie made by some assholes.
 
-Latest Change: None
+Latest Change: 
+# Made the tie look better
