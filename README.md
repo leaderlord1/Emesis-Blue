@@ -1,5 +1,5 @@
 # Emesis-Blue
 
-
-Latest Change: 
-Made the tie look better
+Latest Changes: 
+Added bridge files
+Updated map
