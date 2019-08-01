@@ -6,22 +6,18 @@ $SurfaceProp "default"
 
 $Contents "solid"
 
-$CDMaterials "models\"
+$CDMaterials "models/"
 
-$model "merge_me" floor1.smd {
-	vcafile VertexAnim.vta
+$model "merge_me" "collection.dmx" 
+
+$sequence "Anim" {
+	"anims/action.005.dmx" 
+	fps 24.0
 }
-
-// vertex animation block begins
-$upaxis Y
-
-$boneflexdriver "vcabone_VertexAnim" tx "VertexAnim" 0 1
-$boneflexdriver "vcabone_VertexAnim" ty "multi_VertexAnim" 0 1
-$sequence "VertexAnim" "vcaanim_VertexAnim.smd" fps 24.0
 
 
 $Sequence "idle" {
-	"floor1.smd"
+	"collection.dmx"
 	fadein 0.2
 	fadeout 0.2
 	fps 1
