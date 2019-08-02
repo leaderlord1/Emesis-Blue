@@ -1,13 +1,12 @@
 # Emesis-Blue
 
 Latest Change: 
-* Added ambulance
-* Modified jacket tie
-
-If you want to upload stuff, add it in the 'other' folder
+* Updated 2fort_eb to 0.6
+* Added physics bridge
 
 # Model List:
 
+* 2fortbridge
 * ford_f350_ambu
 * eb_bottle
 * eb_key
@@ -21,7 +20,7 @@ If you want to upload stuff, add it in the 'other' folder
 
 # Map List:
 
-* 2fort_eb v0.5
+* 2fort_eb v0.6
 * cinema_theathron
 
 
