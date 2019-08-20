@@ -1,9 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "glass/glasswindow001a"
-	"$surfaceprop" "glass"
-	"$translucent" 1
-//	"$envmapsaturation" 1
-	"%keywords" "tf"
-	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 45 translate 0 0"
-}
