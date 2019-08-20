@@ -1,73 +1,92 @@
-import bpy, bmesh, mathutils        
+import bpy, mathutils    
+from collections import deque
 
-#init
-bpy.context.scene.cursor.location = (0.0,0.0,0.0)
-bpy.ops.object.select_all(action='DESELECT')
-objects = bpy.context.collection.objects
+objectList = deque(bpy.context.collection.objects)
+currentArmature = None
 
-#create armature
-bpy.ops.object.armature_add()
-currentArmature = bpy.context.object
-currentArmature.pose.bones.get('Bone').name = 'rootTransform'
+def returnToObjectMode():
+    bpy.ops.object.mode_set(mode='OBJECT')
+    bpy.ops.object.select_all(action='DESELECT')
+
+def init():
+    returnToObjectMode()
+    bpy.context.scene.cursor.location = (0.0,0.0,0.0)
+    
+def setOriginToObject(object):
+    bpy.context.scene.cursor.location = object.location
+    bpy.ops.object.origin_set(type = 'ORIGIN_CURSOR')
+
+def createArmature():
+    bpy.ops.object.armature_add()
+    armature = bpy.context.object
+    armature.pose.bones.get('Bone').name = 'rootTransform'
+    return armature
+
+def addVertGroup(object, grp_name, vert_weight):
+    vgrp = object.vertex_groups.new(name = grp_name)
+    vertices= [e for e in object.data.vertices]
+    for vert in vertices:
+            vgrp.add([vert.index], vert_weight, "ADD")     
+    
+def createBone(armature, bone_name):
+    bpy.ops.object.mode_set(mode='EDIT')
+    armature.data.edit_bones.new(bone_name)
+    
+def moveBoneToObject(bone, object): #bone from armature.data.edit_bones[...]
+    bone.select = True
+    bone.head = object.location
+    bone.tail = object.location + mathutils.Vector((0.0,0.0,10.0)) #10 on Z to point upwards
+    
+def addBoneConstraints(armature, bone_name, object):
+    bpy.ops.object.mode_set(mode='POSE')
+    bone = armature.pose.bones[bone_name]
+    constraint1 = bone.constraints.new('COPY_LOCATION')
+    constraint1.target = object
+    constraint2 = bone.constraints.new('COPY_ROTATION')
+    constraint2.target = object
+    constraint2.use_offset = True
+
+def selectObjectsInList(object_list):
+    for obj in object_list:
+        obj.select_set(True)
+
+def joinObjectsInList(object_list):
+    bpy.context.view_layer.objects.active = objectList[0]
+    selectObjectsInList(object_list)
+    bpy.ops.object.join()
+    
+def addArmatureModifier(armature):
+    bpy.ops.object.modifier_add(type='ARMATURE')
+    bpy.context.object.modifiers["Armature"].object = armature
+
+
+init()
+currentArmature = createArmature()
 armData = currentArmature.data
 
-#bone operations
-for obj in objects:
-    if obj!= currentArmature:
-        #create bones
-        obj.parent = currentArmature
-        bpy.ops.object.mode_set(mode='EDIT')
-        armData.edit_bones.new('bone_' + obj.data.name)
-        
-        #move then set parent
-        bone = armData.edit_bones['bone_' + obj.data.name]
-        bone.select = True
-        bone.head = obj.location
-        bone.tail = obj.location + mathutils.Vector((0.0,0.0,10.0))
-        bone.parent = armData.edit_bones['rootTransform']
-        
-        #add constraints then bake
-        bpy.ops.object.mode_set(mode='POSE')
-        bone = currentArmature.pose.bones['bone_' + obj.data.name]
-        
-        c1= bone.constraints.new('COPY_LOCATION')
-        c1.target = obj
-        c2= bone.constraints.new('COPY_ROTATION')
-        c2.target = obj
+for obj in objectList:
+    boneName = 'bone_' + obj.name
+    
+    addVertGroup(obj, boneName, 1)
+    obj.animation_data_clear()
+    obj.parent = currentArmature
+    
+    createBone(currentArmature, boneName)
+    moveBoneToObject(armData.edit_bones[boneName], obj)
+    armData.edit_bones[boneName].parent = armData.edit_bones['rootTransform']
 
-        bpy.ops.nla.bake(frame_start=1, frame_end=250, step=1, 
-                        only_selected=True, visual_keying=True, 
-                        clear_constraints=True, clear_parents=False, 
-                        use_current_action=False, bake_types={'POSE'})
+    addBoneConstraints(currentArmature, boneName, obj)
+    
+    bpy.ops.nla.bake(frame_start=1, frame_end=250, step=1, 
+                    only_selected=True, visual_keying=True, 
+                    clear_constraints=True, clear_parents=False, 
+                    use_current_action=False, bake_types={'POSE'})
 
 
-#object operations
-for obj in objects:
-    if obj!= currentArmature:
-        bpy.ops.object.mode_set(mode='OBJECT')
-        bpy.ops.object.select_all(action='DESELECT')
-        bpy.context.view_layer.objects.active = obj        
-        bpy.data.objects[obj.name].select_set(True)
-        
-        #add armature modifier
-        bpy.ops.object.modifier_add(type='ARMATURE')
-        bpy.context.object.modifiers["Armature"].object = currentArmature
-        
-        #add vertex groups and set weights
-        vertices= [e for e in obj.data.vertices]
-        vg = obj.vertex_groups.new(name = 'bone_' + obj.data.name)
-        for vert in vertices:
-                vg.add([vert.index], 1, "ADD")
-                
-        obj.animation_data_clear()
+returnToObjectMode()
 
-#join meshes
-for obj in objects:
-    if obj.type == 'MESH':
-        obj.select_set(True)
-    else:
-        obj.select_set(False)
-        
-bpy.ops.object.join()
-bpy.context.scene.cursor.location = currentArmature.location
-bpy.ops.object.origin_set(type = 'ORIGIN_CURSOR')
+joinObjectsInList(objectList)
+setOriginToObject(currentArmature)
+
+bpy.ops.rigidbody.object_remove()
+addArmatureModifier(currentArmature)
