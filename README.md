@@ -1,9 +1,9 @@
 # Emesis-Blue
 
 Latest Change: 
+* Updated broken 2fort wall
 * Fixed usermod + tf mixup
 * Updated 2fort_eb to 0.6.1
-* Added broken 2fort wall
 * Added poseable & broken spawn doors
 
 # Model List:
