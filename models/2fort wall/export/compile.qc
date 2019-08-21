@@ -1,13 +1,14 @@
 $ModelName "fis/eb_2fortwall/eb_2fortwall.mdl"
 
-$body object "wall.dmx"
+$body wood "wood.dmx"
 $bodygroup walldestroyed
-{
+{	
 	studio "original.dmx"
-	studio "destroyed.dmx"
+	studio "Collection 5.dmx"
 	blank
 }
 $CDMaterials "models/fis/eb_2fortwall"
 $cdmaterials "models\props_farm"
-$sequence idle "wall.dmx"
+$sequence idle "collection 5.dmx"
+$sequence Phyiscs "anims\action.051.dmx"
 $ambientboost
