@@ -1,14 +1,3 @@
-bl_info = {
-    "name": "Physics to Bones",
-    "description": "Converts rigid body animation to bones.",
-    "author": "Paraschiv Tudor Andrei",
-    "version": (1, 0, 0),
-    "blender": (2, 80, 0),
-    "location": "View3D &gt; Object &gt; Quick Effects",
-    "category": "Object"
-    }
-
-
 import bpy, mathutils    
 from bpy.props import (StringProperty,
                        BoolProperty,
@@ -81,14 +70,9 @@ def addArmatureModifier(armature):
     bpy.ops.object.modifier_add(type='ARMATURE')
     bpy.context.object.modifiers["Armature"].object = armature
 
-def addArmatureAndRemovePhys(object_list, armature):
-    for obj in object_list:
-        bpy.context.view_layer.objects.active = obj
-        addArmatureModifier(armature)
-        bpy.ops.rigidbody.object_remove()
-
 def setOriginToGeom(object_list):
     selectObjectsInList(object_list)
+    print(object_list)
     bpy.context.view_layer.objects.active = object_list[0]
     bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='MEDIAN')
     bpy.ops.object.select_all(action='DESELECT')
@@ -107,12 +91,7 @@ def separateMeshesInList(object_list):
         obj.select_set(True)
         separateMesh(obj)
         object_list.append(bpy.context.selected_objects)
-
-def removeRigidBodies(object_list):
-    for obj in object_list:
-        bpy.context.view_layer.objects.active = obj
-        bpy.ops.rigidbody.object_remove()
-        
+        bpy.ops.object.select_all(action='DESELECT')
 
 def createBackupCollection(object_list):
     bpy.data.collections.new('Backup_ptb')
@@ -139,11 +118,10 @@ def main(self, context):
     if self.create_backup == True:
         createBackupCollection(objectList)
         
-    '''if self.separate_first == True:
-        separateMeshesInList(objectList)'''
-        
-    if self.merge_objects == True:
-        setOriginToGeom(objectList)
+    if self.separate_first == True:
+        separateMeshesInList(objectList)
+    
+    setOriginToGeom(objectList)
     
     currentArmature = createArmature()
     armData = currentArmature.data
@@ -173,29 +151,29 @@ def main(self, context):
     
     if self.merge_objects == True and len(objectList) > 1:
         joinObjectsInList(objectList)
-        setOriginToObject(currentArmature)
-        bpy.ops.rigidbody.object_remove()
-        addArmatureModifier(currentArmature)
-    else: #if we don't do it this way, unmerged objects won't have the armature added and rigidbody removed
-        addArmatureAndRemovePhys(objectList,currentArmature)
+    setOriginToObject(currentArmature)
+    
+
+    bpy.ops.rigidbody.object_remove()
+    addArmatureModifier(currentArmature)
     
     self.report({'INFO'}, 'PhysicsToBones: Finished; Processed ' + str(len(objectList)) + ' objects')
     
 class PhysicsToBones(bpy.types.Operator):
     bl_idname = "object.physicstobones"
     bl_label = "Physics to Bones"
-    bl_options = {'REGISTER', 'UNDO'}
+    
     create_backup: BoolProperty(
         name = 'Create backup',
         description = 'Create a new collection with duplicated objects',
         default = True
         )
     
-    '''separate_first: BoolProperty(
+    separate_first: BoolProperty(
         name = 'Separate objects',
         description = 'Separate meshes by loose parts before any operations',
         default = False
-        )'''
+        )
     
     merge_objects: BoolProperty(
         name = 'Merge objects',
@@ -256,8 +234,8 @@ class PhysicsToBones(bpy.types.Operator):
         row = layout.row()
         row.prop(self, 'selected_objects_only')
         
-        '''row = layout.row()
-        row.prop(self, 'separate_first')'''
+        row = layout.row()
+        row.prop(self, 'separate_first')
         
         row = layout.row()
         row.prop(self, 'merge_objects')
