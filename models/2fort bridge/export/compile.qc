@@ -8,16 +8,16 @@ $Contents "solid"
 
 $CDMaterials "models/fis/2fortbridge"
 
-$model "merge_me" "collection1.dmx" 
+$model "merge_me" "collection 3.dmx" 
 
 $sequence "Anim" {
-	"anims/action.094.dmx" 
+	"anims/action.001.dmx" 
 	fps 24.0
 }
 
 
 $Sequence "idle" {
-	"collection1.dmx"
+	"collection 3.dmx"
 	fadein 0.2
 	fadeout 0.2
 	fps 1
