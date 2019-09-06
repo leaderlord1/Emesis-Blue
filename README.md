@@ -1,8 +1,8 @@
 # Emesis-Blue
 
 Latest Change: 
-* Fixed 2fort wall
-* Updated bridge animation
+* Added eb_suitcase
+* Edited the broken glasses
 
 # Model List:
 
@@ -19,6 +19,7 @@ Latest Change:
 * eb_dispenser
 * eb_disposaldoor
 * eb_satchel
+* eb_suitcase
 
 # Map List:
 
