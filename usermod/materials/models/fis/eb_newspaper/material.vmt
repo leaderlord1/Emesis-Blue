@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\fis\eb_newspaper\material"
+	$model 1
+	$nocull 0
+	$phong 0
+	$phongboost 1.0
+	$phongexponent 20
+	$phongfresnelranges "[0.25 0.5 0.5]"
+}

@@ -1,8 +1,7 @@
 # Emesis-Blue
 
 Latest Change: 
-* Added eb_suitcase
-* Edited the broken glasses
+* Added eb_newspaper
 
 # Model List:
 
@@ -20,6 +19,7 @@ Latest Change:
 * eb_disposaldoor
 * eb_satchel
 * eb_suitcase
+* eb_newspaper
 
 # Map List:
 
