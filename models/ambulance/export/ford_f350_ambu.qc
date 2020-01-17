@@ -34,6 +34,10 @@ $TextureGroup "skinfamilies"
 	{ "skin1" }
 	{ "skin2" }
 	{ "skin3" }
+	{ "skin4" }
+	{ "skin5" }
+	{ "skin6" }
+	{ "skin7" }
 }
 
 $Attachment "wheel_fl" "Bone_WFL" 0 0 0 rotate 0 0 0
