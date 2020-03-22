@@ -1,7 +1,8 @@
 # Emesis-Blue
 
 Latest Change: 
-* Added eb_newspaper
+* Added eb_2fort_wall_door
+* 2fort_eb v0.6.2 - Removed wall near underground ramp
 
 # Model List:
 
@@ -23,7 +24,7 @@ Latest Change:
 
 # Map List:
 
-* 2fort_eb v0.6.1
+* 2fort_eb v0.6.2
 * cinema_theathron
 
 
