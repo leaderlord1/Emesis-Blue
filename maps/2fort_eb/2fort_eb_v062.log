@@ -1,0 +1,259 @@
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\SourceFilmmaker\game\usermod\materials
+Loading D:\Work\Emesis-Blue\maps\2fort_eb\2fort_eb_v062.vmf
+Could not locate 'GameData' key in d:\games\steam\steamapps\common\sourcefilmmaker\game\usermod\gameinfo.txt
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtogravel001_wvt_patch
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtograss001_wvt_patch
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtograss003_nodetail_wvt_patch
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtograss003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 684 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Work\Emesis-Blue\maps\2fort_eb\2fort_eb_v062.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1026484 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3543 texinfos to 2815
+Reduced 221 texdatas to 195 (7650 bytes to 6567)
+Writing D:\Work\Emesis-Blue\maps\2fort_eb\2fort_eb_v062.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.bsp
+reading d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.prt
+1285 portalclusters
+3201 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1859 visible clusters (0.00%)
+Total clusters visible: 198521
+Average clusters visible: 154
+Building PAS...
+Average clusters audible: 525
+visdatasize:231690  compressed from 431760
+writing d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+8151 faces
+9 degenerate faces
+1254420 square feet [180636544.00 square inches]
+153 Displacements
+195311 Square Feet [28124854.00 Square Inches]
+8142 patches before subdivision
+129344 patches after subdivision
+32 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11634421, max 531
+transfer lists:  88.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2025, 1668, 1451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(466, 321, 229)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(129, 76, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(37, 19, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0548 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+30 of 32 (93% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  49/1024         2352/49152    ( 4.8%) 
+brushes               2785/8192        33420/98304    (34.0%) 
+brushsides           19997/65536      159976/524288   (30.5%) 
+planes                9720/65536      194400/1310720  (14.8%) 
+vertexes             15044/65536      180528/786432   (23.0%) 
+nodes                 3826/65536      122432/2097152  ( 5.8%) 
+texinfos              2815/12288      202680/884736   (22.9%) 
+texdata                195/2048         6240/65536    ( 9.5%) 
+dispinfos              153/0           26928/0        ( 0.0%) 
+disp_verts            8657/0          173140/0        ( 0.0%) 
+disp_tris            13344/0           26688/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      480874/0          480874/0        ( 0.0%) 
+faces                 8151/65536      456456/3670016  (12.4%) 
+hdr faces             8151/65536      456456/3670016  (12.4%) 
+origfaces             5663/65536      317128/3670016  ( 8.6%) 
+leaves                3876/65536      124032/2097152  ( 5.9%) 
+leaffaces            10096/65536       20192/131072   (15.4%) 
+leafbrushes           6509/65536       13018/131072   ( 9.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            62038/512000     248152/2048000  (12.1%) 
+edges                39107/256000     156428/1024000  (15.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         32/8192         3200/819200   ( 0.4%) 
+leafwaterdata            6/32768          72/393216   ( 0.0%) 
+waterstrips            866/32768        8660/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16338/65536       32676/131072   (24.9%) 
+cubemapsamples          48/1024          768/16384    ( 4.7%) 
+overlays               149/1024        52448/360448   (14.6%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4992840/0        ( 0.0%) 
+visdata               [variable]      231690/16777216 ( 1.4%) 
+entdata               [variable]       88667/393216   (22.5%) 
+LDR ambient table     3876/65536       15504/262144   ( 5.9%) 
+HDR ambient table     3876/65536       15504/262144   ( 5.9%) 
+LDR leaf ambient      3876/65536      108528/1835008  ( 5.9%) 
+HDR leaf ambient      2201/65536       61628/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/85692    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/119892   ( 0.0%) 
+pakfile               [variable]     3676641/0        ( 0.0%) 
+physics               [variable]     1026484/4194304  (24.5%) 
+physics terrain       [variable]       34503/1048576  ( 3.3%) 
+
+Level flags = 0
+
+Total triangle count: 23168
+Writing d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.bsp
+42 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\SourceFilmmaker\game\usermod\materials
+Loading D:\Work\Emesis-Blue\maps\2fort_eb\2fort_eb_v062.vmf
+Could not locate 'GameData' key in d:\games\steam\steamapps\common\sourcefilmmaker\game\usermod\gameinfo.txt
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtogravel001_wvt_patch
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtograss001_wvt_patch
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtograss003_nodetail_wvt_patch
+Patching WVT material: maps/2fort_eb_v062/nature/blendgroundtograss003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (702.00 2372.00 -5.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 4184.0 -680.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 4184.0 840.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 4696.0 -680.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 4696.0 840.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 5120.0 352.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 4608.0 352.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 3448.0 -528.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 3200.0 176.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 684 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1029902 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3549 texinfos to 2865
+Reduced 224 texdatas to 196 (7896 bytes to 6582)
+Writing D:\Work\Emesis-Blue\maps\2fort_eb\2fort_eb_v062.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.bsp
+reading d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.prt
+LoadPortals: couldn't read d:\work\emesis-blue\maps\2fort_eb\2fort_eb_v062.prt
