@@ -1,8 +1,8 @@
 # Emesis-Blue
 
 Latest Change: 
-* Added eb_2fort_wall_door
-* 2fort_eb v0.6.2 - Removed wall near underground ramp
+* Changed ambulance door
+* Added shubert car
 
 # Model List:
 
@@ -21,6 +21,7 @@ Latest Change:
 * eb_satchel
 * eb_suitcase
 * eb_newspaper
+* shubert
 
 # Map List:
 
