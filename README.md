@@ -1,6 +1,7 @@
 # Emesis-Blue
 
 Latest Change: 
+* Added neon cross
 * Changed ambulance door
 * Added shubert car
 
@@ -22,6 +23,7 @@ Latest Change:
 * eb_suitcase
 * eb_newspaper
 * shubert
+* eb_neoncross
 
 # Map List:
 
