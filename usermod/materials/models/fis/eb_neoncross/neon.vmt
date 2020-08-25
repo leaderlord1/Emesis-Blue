@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/fis/eb_neoncross/glass"
+	$color2 "[100 20 20]"
+	$nocull 1
+	
+}	
