@@ -1,9 +1,7 @@
 # Emesis-Blue
 
 Latest Change: 
-* Added neon cross
-* Changed ambulance door
-* Added shubert car
+* Added billboard
 
 # Model List:
 
@@ -22,6 +20,7 @@ Latest Change:
 * eb_satchel
 * eb_suitcase
 * eb_newspaper
+* eb_blubillboard
 * shubert
 * eb_neoncross
 
