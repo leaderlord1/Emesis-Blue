@@ -1,0 +1,132 @@
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\SourceFilmmaker\game\usermod\materials
+Loading D:\Work\Emesis-Blue\maps\alleyway\alleyway_d.vmf
+Could not locate 'GameData' key in d:\games\steam\steamapps\common\sourcefilmmaker\game\usermod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 18 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Work\Emesis-Blue\maps\alleyway\alleyway_d.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (35445 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 106 texinfos to 89
+Reduced 26 texdatas to 25 (609 bytes to 563)
+Writing D:\Work\Emesis-Blue\maps\alleyway\alleyway_d.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\work\emesis-blue\maps\alleyway\alleyway_d.bsp
+reading d:\work\emesis-blue\maps\alleyway\alleyway_d.prt
+  19 portalclusters
+  39 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 361
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 19
+visdatasize:270  compressed from 304
+writing d:\work\emesis-blue\maps\alleyway\alleyway_d.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\work\emesis-blue\maps\alleyway\alleyway_d.bsp
+190 faces
+28913 square feet [4163592.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+190 patches before subdivision
+3902 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 369715, max 317
+transfer lists:   2.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1335, 2520, 2080)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(170, 287, 198)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(24, 37, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             640/65536        5120/524288   ( 1.0%) 
+planes                 234/65536        4680/1310720  ( 0.4%) 
+vertexes               344/65536        4128/786432   ( 0.5%) 
+nodes                   59/65536        1888/2097152  ( 0.1%) 
+texinfos                89/12288        6408/884736   ( 0.7%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  190/65536       10640/3670016  ( 0.3%) 
+hdr faces              190/65536       10640/3670016  ( 0.3%) 
+origfaces              144/65536        8064/3670016  ( 0.2%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces              219/65536         438/131072   ( 0.3%) 
+leafbrushes            148/65536         296/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1508/512000       6032/2048000  ( 0.3%) 
+edges                  924/256000       3696/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          4/8192          400/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             24/32768         240/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           465/65536         930/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 9/1024         3168/360448   ( 0.9%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      135924/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]        1965/393216   ( 0.5%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+HDR leaf ambient       172/65536        4816/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/822      ( 0.1%) 
+pakfile               [variable]       74739/0        ( 0.0%) 
+physics               [variable]       35445/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 538
+Writing d:\work\emesis-blue\maps\alleyway\alleyway_d.bsp
+0 seconds elapsed
