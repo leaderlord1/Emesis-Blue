@@ -2,6 +2,7 @@
 
 Latest Change: 
 * Added alleyway_d
+* added face mask
 
 # Model List:
 
@@ -23,6 +24,7 @@ Latest Change:
 * eb_blubillboard
 * shubert
 * eb_neoncross
+* eb_facemask
 
 # Map List:
 

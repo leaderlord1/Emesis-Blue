@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/fis/eb_facemask/face_mask"
+	$nocull 1
+	
+}	
