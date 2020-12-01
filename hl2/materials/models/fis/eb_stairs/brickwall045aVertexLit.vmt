@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Brick/brickwall045a"
+	$bumpmap "models\fis\eb_stairs\brickwall045a_n"
+	"$surfaceprop" "brick"
+	$phong 1
+	$phongboost 2
+	$phongexponent 1
+$phongfresnelranges "[0.05 0.5 1]"
+	"$detail" "detail\noise_detail_01"
+	"$detailscale" "7.740"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	"%keywords" "c17downtown,wasteland"
+}

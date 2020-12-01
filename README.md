@@ -3,6 +3,7 @@
 Latest Change: 
 * Added alleyway_d
 * added face mask
+* added alleyway stairs
 
 # Model List:
 
@@ -25,6 +26,7 @@ Latest Change:
 * shubert
 * eb_neoncross
 * eb_facemask
+* eb_stairs
 
 # Map List:
 
