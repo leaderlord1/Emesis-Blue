@@ -1,0 +1,106 @@
+# Decompiled with VMF2OBJ v1.1.3 by Dylancyclone
+
+
+newmtl wood/grain_elevator_facade_14b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/grain_elevator_facade_14b.tga
+map_Kd materials/wood/grain_elevator_facade_14b.tga
+
+
+newmtl wood/wood_wall003
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wood_wall003.tga
+map_Kd materials/wood/wood_wall003.tga
+
+
+newmtl wood/grain_elevator_facade_14c
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/grain_elevator_facade_14c.tga
+map_Kd materials/wood/grain_elevator_facade_14c.tga
+
+
+newmtl tools/toolsnodraw
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/tools/toolsnodraw.tga
+map_Kd materials/tools/toolsnodraw.tga
+
+
+newmtl wood/wood_bridge001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wood_bridge001.tga
+map_Kd materials/wood/wood_bridge001.tga
+
+
+newmtl awning01_red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_farm/awning01_red.tga
+map_Kd materials/models/props_farm/awning01_red.tga
+
+
+newmtl wood_bridge002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wood_bridge002.tga
+map_Kd materials/wood/wood_bridge002.tga
+
+
+newmtl floodlight001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_lights/floodlight001.tga
+map_Kd materials/models/props_lights/floodlight001.tga
+
+
+newmtl crane002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/crane002.tga
+map_Kd materials/models/props_mining/crane002.tga
+
+
+newmtl window006
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/window006.tga
+map_Kd materials/models/props_2fort/window006.tga
+
+
+newmtl rafters001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_farm/rafters001.tga
+map_Kd materials/models/props_farm/rafters001.tga
+
+
+newmtl grain_elevator_facade_14b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/grain_elevator_facade_14b.tga
+map_Kd materials/wood/grain_elevator_facade_14b.tga
+
+
+newmtl wall027
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/wall027.tga
+map_Kd materials/metal/wall027.tga
+
