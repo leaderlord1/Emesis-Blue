@@ -26,6 +26,7 @@ Latest Change:
 * eb_facemask
 * eb_stairs
 * siren_eb
+* eb_tower
 
 # Map List:
 
