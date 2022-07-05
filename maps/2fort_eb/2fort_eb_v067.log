@@ -1,0 +1,240 @@
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\SourceFilmmaker\game\usermod\materials
+Loading D:\Work\projectff\maps\2fort_eb\2fort_eb_v067.vmf
+Could not locate 'GameData' key in d:\games\steam\steamapps\common\sourcefilmmaker\game\usermod\gameinfo.txt
+Patching WVT material: maps/2fort_eb_v067/nature/blendgroundtogravel001_wvt_patch
+Patching WVT material: maps/2fort_eb_v067/nature/blendgroundtograss001_wvt_patch
+Patching WVT material: maps/2fort_eb_v067/nature/blendgroundtograss003_nodetail_wvt_patch
+Patching WVT material: maps/2fort_eb_v067/nature/blendgroundtograss003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 654 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Work\projectff\maps\2fort_eb\2fort_eb_v067.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1020329 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3479 texinfos to 2788
+Reduced 221 texdatas to 196 (7688 bytes to 6620)
+Writing D:\Work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading d:\work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+reading d:\work\projectff\maps\2fort_eb\2fort_eb_v067.prt
+1274 portalclusters
+3156 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1718 visible clusters (0.00%)
+Total clusters visible: 194858
+Average clusters visible: 152
+Building PAS...
+Average clusters audible: 520
+visdatasize:226680  compressed from 407680
+writing d:\work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+8123 faces
+6 degenerate faces
+1256966 square feet [181003136.00 square inches]
+153 Displacements
+195311 Square Feet [28124854.00 Square Inches]
+8117 patches before subdivision
+129315 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11656092, max 535
+transfer lists:  88.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2023, 1666, 1450)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(463, 319, 228)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(129, 76, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(37, 19, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0582 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+30 of 32 (93% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  48/1024         2304/49152    ( 4.7%) 
+brushes               2766/8192        33192/98304    (33.8%) 
+brushsides           19938/65536      159504/524288   (30.4%) 
+planes                9846/65536      196920/1310720  (15.0%) 
+vertexes             14977/65536      179724/786432   (22.9%) 
+nodes                 3809/65536      121888/2097152  ( 5.8%) 
+texinfos              2788/12288      200736/884736   (22.7%) 
+texdata                196/2048         6272/65536    ( 9.6%) 
+dispinfos              153/0           26928/0        ( 0.0%) 
+disp_verts            8657/0          173140/0        ( 0.0%) 
+disp_tris            13344/0           26688/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      481038/0          481038/0        ( 0.0%) 
+faces                 8123/65536      454888/3670016  (12.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5615/65536      314440/3670016  ( 8.6%) 
+leaves                3858/65536      123456/2097152  ( 5.9%) 
+leaffaces            10007/65536       20014/131072   (15.3%) 
+leafbrushes           6441/65536       12882/131072   ( 9.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            61827/512000     247308/2048000  (12.1%) 
+edges                39008/256000     156032/1024000  (15.2%) 
+LDR worldlights         33/8192         3300/819200   ( 0.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            6/32768          72/393216   ( 0.0%) 
+waterstrips            897/32768        8970/327680   ( 2.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16959/65536       33918/131072   (25.9%) 
+cubemapsamples          48/1024          768/16384    ( 4.7%) 
+overlays               143/1024        50336/360448   (14.0%) 
+LDR lightdata         [variable]     5058524/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      226680/16777216 ( 1.4%) 
+entdata               [variable]       89012/393216   (22.6%) 
+LDR ambient table     3858/65536       15432/262144   ( 5.9%) 
+HDR ambient table     3858/65536       15432/262144   ( 5.9%) 
+LDR leaf ambient      2181/65536       61068/1835008  ( 3.3%) 
+HDR leaf ambient      3858/65536      108024/1835008  ( 5.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/73056    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/116360   ( 0.0%) 
+pakfile               [variable]     3676983/0        ( 0.0%) 
+physics               [variable]     1020329/4194304  (24.3%) 
+physics terrain       [variable]       34503/1048576  ( 3.3%) 
+
+Level flags = 0
+
+Total triangle count: 23211
+Writing d:\work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+41 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+8123 faces
+6 degenerate faces
+1256966 square feet [181003136.00 square inches]
+153 Displacements
+195311 Square Feet [28124854.00 Square Inches]
+8117 patches before subdivision
+129315 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11656092, max 535
+transfer lists:  88.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2023, 1666, 1450)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(463, 319, 228)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(129, 76, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(37, 19, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0597 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+30 of 32 (93% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  48/1024         2304/49152    ( 4.7%) 
+brushes               2766/8192        33192/98304    (33.8%) 
+brushsides           19938/65536      159504/524288   (30.4%) 
+planes                9846/65536      196920/1310720  (15.0%) 
+vertexes             14977/65536      179724/786432   (22.9%) 
+nodes                 3809/65536      121888/2097152  ( 5.8%) 
+texinfos              2788/12288      200736/884736   (22.7%) 
+texdata                196/2048         6272/65536    ( 9.6%) 
+dispinfos              153/0           26928/0        ( 0.0%) 
+disp_verts            8657/0          173140/0        ( 0.0%) 
+disp_tris            13344/0           26688/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      481038/0          481038/0        ( 0.0%) 
+faces                 8123/65536      454888/3670016  (12.4%) 
+hdr faces             8123/65536      454888/3670016  (12.4%) 
+origfaces             5615/65536      314440/3670016  ( 8.6%) 
+leaves                3858/65536      123456/2097152  ( 5.9%) 
+leaffaces            10007/65536       20014/131072   (15.3%) 
+leafbrushes           6441/65536       12882/131072   ( 9.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            61827/512000     247308/2048000  (12.1%) 
+edges                39008/256000     156032/1024000  (15.2%) 
+LDR worldlights         33/8192         3300/819200   ( 0.4%) 
+HDR worldlights         33/8192         3300/819200   ( 0.4%) 
+leafwaterdata            6/32768          72/393216   ( 0.0%) 
+waterstrips            897/32768        8970/327680   ( 2.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16959/65536       33918/131072   (25.9%) 
+cubemapsamples          48/1024          768/16384    ( 4.7%) 
+overlays               143/1024        50336/360448   (14.0%) 
+LDR lightdata         [variable]     5058524/0        ( 0.0%) 
+HDR lightdata         [variable]     5058524/0        ( 0.0%) 
+visdata               [variable]      226680/16777216 ( 1.4%) 
+entdata               [variable]       89012/393216   (22.6%) 
+LDR ambient table     3858/65536       15432/262144   ( 5.9%) 
+HDR ambient table     3858/65536       15432/262144   ( 5.9%) 
+LDR leaf ambient      2181/65536       61068/1835008  ( 3.3%) 
+HDR leaf ambient      2181/65536       61068/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/73056    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/116360   ( 0.0%) 
+pakfile               [variable]     3676983/0        ( 0.0%) 
+physics               [variable]     1020329/4194304  (24.3%) 
+physics terrain       [variable]       34503/1048576  ( 3.3%) 
+
+Level flags = 0
+
+Total triangle count: 23211
+Writing d:\work\projectff\maps\2fort_eb\2fort_eb_v067.bsp
+38 seconds elapsed
