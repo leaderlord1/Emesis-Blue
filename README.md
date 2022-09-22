@@ -27,6 +27,7 @@ Latest Change:
 * eb_stairs
 * siren_eb
 * eb_tower
+* prison_bars
 
 # Map List:
 
