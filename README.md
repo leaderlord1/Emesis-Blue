@@ -1,4 +1,4 @@
 # Emesis-Blue
 
 Latest Changes: 
-* prison gate
+* cross necklace, medic broken wall
