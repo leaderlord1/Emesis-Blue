@@ -1,7 +1,6 @@
 Latest Change: 
-* Added alleyway_d
-* added face mask
-* added alleyway stairs
+* add cross necklace
+* add edited broken wall
 
 # Model List:
 
@@ -28,10 +27,13 @@ Latest Change:
 * siren_eb
 * eb_tower
 * prison_bars
+* crossnecklace
+* medic_broken_wall
 
 # Map List:
 
 * 2fort_eb v0.6.2
 * cinema_theathron
 * alleyway_d
+* eb_2fort_destroyed
 
