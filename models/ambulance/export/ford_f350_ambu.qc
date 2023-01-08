@@ -15,7 +15,11 @@ $BodyGroup "clamped2"
 {
 	studio "ford_f350_ambu_body2_model0.smd"
 }
-
+$BodyGroup "windshield"
+{
+	studio "windshield.smd"
+	blank
+}
 
 $SurfaceProp "metal"
 
